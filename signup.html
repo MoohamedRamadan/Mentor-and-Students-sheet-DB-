@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Welcome to my page">
+        <link rel="stylesheet" href="Css/signup.css">
+        <title>SignUp Page</title>
+    </head>
+    <body>
+        <div class="father">
+                <form action="signup.php" method="POST">
+                    <fieldset>
+                        <legend>Add Student</legend>
+
+                        <label>Handle</label>
+                        <input class="input1" placeholder="Handle" type="text" name="handle" required>
+
+                        <label>Level</label>
+                        <input class="input2" placeholder="Level" type="number" name="level" min="1" max="4" required>
+
+                        <label>Problems</label>
+                        <input class="input3" placeholder="Problems" type="number" name="problems" min="1" max="1000" required>
+
+                        <label>Mentor ID</label>
+                        <input class="input4" placeholder="Mentor ID" type="number" name="mentor" required>
+
+                        <input class="input5" type="submit" name="submit" value="Register">
+                        <div class="move">
+                            <a href="Add.html">Back</a>
+                         </div>
+                    </fieldset>
+                </form>
+            </div>
+    </body>
+</html>

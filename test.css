@@ -1,0 +1,101 @@
+body{
+    background-color: #008B8B;
+}
+.father{
+    width:1000px;
+    height: 630px;
+    padding:20px;
+    margin:22px auto;
+    border-radius:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+fieldset{
+    width:850px;
+    height: 490px;
+    padding:50px;
+    margin:20px auto;
+    border-radius:15px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.txt{
+    width:270px;
+    padding:2px;
+    margin:auto;
+    margin-left: 280px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sub{
+    width:150px;
+    height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    background-color:#00CED1;
+    cursor: pointer;
+    border-radius: 5px;
+    border:0px;
+}
+
+.move{
+    margin-top: 409px;
+    margin-right: 240px;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.move2{
+    margin-top: 410px;
+    margin-right: 70px;
+    float: right;
+    background-color:#00CED1;
+    width:150px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    padding:5px;
+}
+table{
+    margin-top: -480px;
+    margin-left: 52px;
+    width:900px;
+    border:2px solid darkgray;
+    border-radius: 5px;
+    padding:5px;
+}
+table th{
+    width:150px;
+    padding:10px;
+    border:5px solid darkgray;
+    border-radius: 5px;
+    background-color: #00CED1;
+    font-size:18px;
+}
+
+table td{
+    width:250px;
+    padding:10px;
+    border:3px solid darkgray;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table .mm{
+    color:red;
+    font-weight: bold;
+}
